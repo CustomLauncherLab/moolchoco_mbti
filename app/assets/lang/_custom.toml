@@ -1,0 +1,22 @@
+# Custom Language File for Launcher Customizer
+
+[ejs.app]
+title = "MBTI 단합대회"
+
+[ejs.landing]
+mediaGitHubURL = "https://bj.afreecatv.com/moolchoco_mbti"
+mediaTwitterURL = "#"
+mediaInstagramURL = "#"
+mediaYouTubeURL = "#"
+mediaDiscordURL = "#"
+mediaAfreecaTVURL = "#"
+screenshotsTooltip = "스크린샷"
+
+[ejs.settings]
+sourceGithubLink = "https://github.com/CustomLauncherLab/moolchoco_mbti"
+supportLink = "https://github.com/CustomLauncherLab/moolchoco_mbti/issues"
+
+[ejs.welcome]
+welcomeHeader = "MBTI 단합대회"
+welcomeDescription = ""
+welcomeDescCTA = ""

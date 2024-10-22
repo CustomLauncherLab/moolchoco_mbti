@@ -1,0 +1,177 @@
+<div id="landingContainer" style="display: none;">
+    <div id="upper">
+        <div id="left">
+            <div id="image_seal_container">
+                <img id="image_seal" src="assets/images/icon.png"/>
+                <div id="updateAvailableTooltip"><%- lang('landing.updateAvailableTooltip') %></div>
+            </div>
+        </div>
+        <div id="content">
+        </div>
+        <div id="right">
+            <div id="rightContainer">
+                <div id="user_content">
+                    <span id="user_text"><%- lang('landing.usernamePlaceholder') %></span>
+                    <div id="avatarContainer">
+                        <button id="avatarOverlay"><%- lang('landing.usernameEditButton') %></button>
+                    </div>
+                </div>
+                <div id="mediaContent">
+                    <div id="internalMedia">
+                        <div class="mediaContainer" id="settingsMediaContainer">
+                            <button class="mediaButton" id="settingsMediaButton">
+                                <svg id="settingsSVG" class="mediaSVG" viewBox="0 0 141.36 137.43">
+                                    <path d="M70.70475616319865,83.36934004916053 a15.320781354859122,15.320781354859122 0 1 1 14.454501310561755,-15.296030496450625 A14.850515045097694,14.850515045097694 0 0 1 70.70475616319865,83.36934004916053 M123.25082856443602,55.425620905968366 h-12.375429204248078 A45.54157947163293,45.54157947163293 0 0 0 107.21227231573047,46.243052436416285 l8.613298726156664,-9.108315894326587 a9.727087354538993,9.727087354538993 0 0 0 0,-13.167456673319956 l-3.465120177189462,-3.6631270444574313 a8.489544434114185,8.489544434114185 0 0 0 -12.375429204248078,0 l-8.613298726156664,9.108315894326587 A40.442902639482725,40.442902639482725 0 0 0 81.99114759747292,25.427580514871032 V12.532383284044531 a9.108315894326587,9.108315894326587 0 0 0 -8.811305593424633,-9.306322761594556 h-4.950171681699231 a9.108315894326587,9.108315894326587 0 0 0 -8.811305593424633,9.306322761594556 v12.895197230826497 a40.17064319698927,40.17064319698927 0 0 0 -9.331073620003052,4.0591407789933704 l-8.613298726156664,-9.108315894326587 a8.489544434114185,8.489544434114185 0 0 0 -12.375429204248078,0 L25.58394128451018,23.967279868769744 a9.727087354538993,9.727087354538993 0 0 0 0,13.167456673319956 L34.19724001066683,46.243052436416285 a45.07131316187151,45.07131316187151 0 0 0 -3.6631270444574313,9.083565035918088 h-12.375429204248078 a9.083565035918088,9.083565035918088 0 0 0 -8.811305593424633,9.306322761594556 v5.197680265784193 a9.108315894326587,9.108315894326587 0 0 0 8.811305593424633,9.306322761594556 h11.979415469712139 a45.69008462208391,45.69008462208391 0 0 0 4.0591407789933704,10.642869115653347 l-8.613298726156664,9.108315894326587 a9.727087354538993,9.727087354538993 0 0 0 0,13.167456673319956 l3.465120177189462,3.6631270444574313 a8.489544434114185,8.489544434114185 0 0 0 12.375429204248078,0 l8.613298726156664,-9.108315894326587 a40.49240435629971,40.49240435629971 0 0 0 9.331073620003052,4.0591407789933704 v12.895197230826497 a9.083565035918088,9.083565035918088 0 0 0 8.811305593424633,9.306322761594556 h4.950171681699231 A9.083565035918088,9.083565035918088 0 0 0 81.99114759747292,123.68848839660077 V110.79329116577425 a40.78941465720167,40.78941465720167 0 0 0 9.331073620003052,-4.0591407789933704 l8.613298726156664,9.108315894326587 a8.489544434114185,8.489544434114185 0 0 0 12.375429204248078,0 l3.465120177189462,-3.6631270444574313 a9.727087354538993,9.727087354538993 0 0 0 0,-13.167456673319956 l-8.613298726156664,-9.108315894326587 a45.665333763675406,45.665333763675406 0 0 0 4.034389920584874,-10.642869115653347 h12.004166328120636 a9.108315894326587,9.108315894326587 0 0 0 8.811305593424633,-9.306322761594556 v-5.197680265784193 a9.083565035918088,9.083565035918088 0 0 0 -8.811305593424633,-9.306322761594556 " id="svg_3" class=""/>
+                                </svg>
+                                <div id="settingsTooltip"><%- lang('landing.settingsTooltip') %></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="internalMedia">
+                        <div class="mediaContainer" id="screenshotsMediaContainer">
+                            <button class="mediaButton" id="screenshotsMediaButton">
+                                <svg id="screenshotsSVG" class="mediaSVG" viewBox="0 0 600 533">
+                                    <path d="M160 32c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H160zM396 138.7l96 144c4.9 7.4 5.4 16.8 1.2 24.6S480.9 320 472 320H328 280 200c-9.2 0-17.6-5.3-21.6-13.6s-2.9-18.2 2.9-25.4l64-80c4.6-5.7 11.4-9 18.7-9s14.2 3.3 18.7 9l17.3 21.6 56-84C360.5 132 368 128 376 128s15.5 4 20 10.7zM192 128a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM48 120c0-13.3-10.7-24-24-24S0 106.7 0 120V344c0 75.1 60.9 136 136 136H456c13.3 0 24-10.7 24-24s-10.7-24-24-24H136c-48.6 0-88-39.4-88-88V120z" id="svg_3" class=""/>
+                                </svg>
+                                <div id="screenshotsTooltip"><%- lang('landing.screenshotsTooltip') %></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mediaDivider"></div>
+                    <div id="externalMedia">
+                        <div class="mediaContainer">
+                            <a href="<%- lang('landing.mediaGitHubURL') %>" class="mediaURL" id="linkURL">
+                                <svg id="linkSVG" class="mediaSVG" viewBox="35.34 34.3575 70.68 68.71500">
+                                    <g>
+                                        <path d="M75.37,65.51a3.85,3.85,0,0,0-1.73.42,8.22,8.22,0,0,1,.94,3.76A8.36,8.36,0,0,1,66.23,78H46.37a8.35,8.35,0,1,1,0-16.7h9.18a21.51,21.51,0,0,1,6.65-8.72H46.37a17.07,17.07,0,1,0,0,34.15H66.23A17,17,0,0,0,82.77,65.51Z"/>
+                                        <path d="M66,73.88a3.85,3.85,0,0,0,1.73-.42,8.22,8.22,0,0,1-.94-3.76,8.36,8.36,0,0,1,8.35-8.35H95A8.35,8.35,0,1,1,95,78H85.8a21.51,21.51,0,0,1-6.65,8.72H95a17.07,17.07,0,0,0,0-34.15H75.13A17,17,0,0,0,58.59,73.88Z"/>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="mediaContainer">
+                            <a href="<%- lang('landing.mediaAfreecaTVURL') %>" class="mediaURL" id="afreecaURL">
+                                <svg id="afreecaSVG" class="mediaSVG" viewBox="0 0 69.15 75.91">
+                                    <g>
+                                        <clipPath id="a">
+                                            <path d="M2.14,65A108.54,108.54,0,0,1,0,43.19a100.16,100.16,0,0,1,1.33-17.07,20.93,20.93,0,0,1,.71-2.77,11.1,11.1,0,0,1,6.35-6.74A28.88,28.88,0,0,1,13.26,15a83.71,83.71,0,0,1,19.15-2.37h.45A78.06,78.06,0,0,1,51.77,15a49.58,49.58,0,0,1,5.15,1.68s5.07,2,6.42,6.67A24.76,24.76,0,0,1,64,26a114.94,114.94,0,0,1,1.36,17.21,110.06,110.06,0,0,1-2.2,21.93v0a10.05,10.05,0,0,1-7.66,7.75l-.36.07a115.36,115.36,0,0,1-22.46,2.2A115.39,115.39,0,0,1,10.26,73l-.5-.1A10,10,0,0,1,4,69.2,8.83,8.83,0,0,1,2.14,65Z" fill="none"></path>
+                                        </clipPath>
+                                        <path class="blue" d="M50.22,1.27a2.33,2.33,0,0,1-1.36,3.25l-14.11,6.41a4.66,4.66,0,0,1-4.37-.1l-9.12-4.32a2.34,2.34,0,0,1-.61-3.44h0A2.3,2.3,0,0,1,24,2.81l7,5.64a2.47,2.47,0,0,0,2.19.52A3,3,0,0,0,34,8.6L46.91.33a2.35,2.35,0,0,1,3.31.94Z"></path>
+                                        <g clip-path="url(#a)">
+                                            <path class="blue" d="m68.24 27.38c-1-7.4-2.7-11.63-12.33-13.81a105.8 105.8 0 0 0-20.14-2.57c-1.09-0.05-2.19-0.05-3.29 0a105.71 105.71 0 0 0-20.13 2.58c-7.13 1.62-9.92 4.35-11.29 8.67-0.24 0.76 2.06-0.45 1.89 0.41s0.53 12.21 0.4 13.17c-1 7.29-4.24 7.61-4.24 7.87a134.72 134.72 0 0 0 0.89 16.3c1 7.4 2.71 11.62 12.34 13.81 8.68 2 15 1.83 20.13 2.06h3.29c5.16-0.23 11.45-0.1 20.14-2.06 9.63-2.19 11.34-6.41 12.33-13.81a132.48 132.48 0 0 0 0.9-16.31c0-0.14-1.45-3-2.88-6.78-0.14-0.37-1.08 1.57-1.22 1.19-1-2.74-1.09-8.12-1.41-10.85-0.04-0.44 4.68 0.56 4.62 0.13z"></path>
+                                            <path class="sky" d="m43.87 33.56c-0.07-2.56-0.1-5.08 0-7.61a5.56 5.56 0 0 1 2.58-4.79 6.39 6.39 0 0 1 5.83-0.29c3 1.33 6.82 3.37 6.82 3.37 2.21 1.2 4.07 2.21 6.39 3.72a2.5 2.5 0 0 1 0.35 0.21 5.63 5.63 0 0 1 0.07 9.45c-2.2 1.46-4.11 2.85-6.37 4.25a60 60 0 0 1-5.93 3.31 7.37 7.37 0 0 1-6.32 0.32 6.14 6.14 0 0 1-3-4.94s-0.29-2.79-0.42-7z"></path>
+                                            <path d="m47.75 53.93c-7.31 6.8-23.16 6.81-30.27 0a1.44 1.44 0 0 0-2 2.07c8.21 7.84 25.8 7.85 34.21 0a1.43 1.43 0 1 0-1.95-2.1z" fill="#fff"></path>
+                                            <path class="green" d="M41.91,42.6a.2.2,0,0,1,0-.07l0-.43-1-10.77,0-.3a5,5,0,0,0-.13-.69,5.55,5.55,0,0,0-4.43-4.13,5.64,5.64,0,0,0-.93-.08h-5.53a5.29,5.29,0,0,0-.8.06,5.56,5.56,0,0,0-4.56,4.14c0,.18-.08.37-.11.55l-.05.58-1,10.7,0,.25a1.15,1.15,0,0,0,0,.19,1.48,1.48,0,0,0,0,.21,5.56,5.56,0,0,0,4.14,5.37,5.45,5.45,0,0,0,1.41.19h7.51a5.5,5.5,0,0,0,.91-.08,5.57,5.57,0,0,0,4.64-5.48Z"></path>
+                                            <path class="red" d="m21.11 36.67c-2.13 7.11-8.5 10.73-15.54 9.51-7.31-1.26-12.59-11.6-8.95-18 3.12-5.46 9.92-9.5 17-7.32 7.55 2.35 9.64 8.63 7.49 15.81z"></path>
+                                            <circle class="black" cx="54.1" cy="33.27" r="4.69"></circle>
+                                            <circle class="black" cx="10.46" cy="33.27" r="4.69"></circle>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="lower">
+        <div id="left">
+            <div class="bot_wrapper">
+                <div id="content">
+                    <div id="server_status_wrapper">
+                        <span class="bot_label" id="landingPlayerLabel"><%- lang('landing.serverStatus') %></span>
+                        <span id="player_count"><%- lang('landing.serverStatusPlaceholder') %></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="center">
+        </div>
+        <div id="right">
+            <div class="bot_wrapper">
+                <div id="resolutionSettingsContainer">
+                    <label for="resolutionDropdown">해상도 설정: </label>
+                    <select id="resolutionDropdown">
+                        <option value="1280x720">1280x720</option>
+                        <option value="1920x1080">1920x1080</option>
+                    </select>
+                </div>
+                <div id="launch_content">
+                    <button id="launch_button"><%- lang('landing.launchButton') %></button>
+                    <div class="bot_divider"></div>
+                    <button id="server_selection_button" class="bot_label"><%- lang('landing.launchButtonPlaceholder') %></button>
+                </div>
+                <div id="launch_details">
+                    <div id="launch_details_left">
+                        <span id="launch_progress_label">0%</span>
+                        <div class="bot_divider"></div>
+                    </div>
+                    <div id="launch_details_right">
+                        <progress id="launch_progress" value="22" max="100"></progress>
+                        <span id="launch_details_text" class="bot_label"><%- lang('landing.launchDetails') %></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="newsContainer">
+        <div id="newsContent" article="-1" style="display: none;">
+            <div id="newsStatusContainer">
+                <div id="newsStatusContent">
+                    <div id="newsTitleContainer">
+                        <a id="newsArticleTitle" href="#">Lorem Ipsum</a>
+                    </div>
+                    <div id="newsMetaContainer">
+                        <div id="newsArticleDateWrapper">
+                            <span id="newsArticleDate">Mar 15, 44 BC, 9:14 AM</span>
+                        </div>
+                        <div id="newsArticleAuthorWrapper">
+                            <span id="newsArticleAuthor">by Cicero</span>
+                        </div>
+                        <a href="#" id="newsArticleComments">0 Comments</a>
+                    </div>
+                </div>
+                <div id="newsNavigationContainer">
+                    <button id="newsNavigateLeft">
+                        <svg id="newsNavigationLeftSVG" viewBox="0 0 24.87 13.97">
+                            <defs>
+                                <style>.arrowLine{fill:none;stroke:#FFF;stroke-width:2px;transition: 0.25s ease;}</style>
+                            </defs>
+                            <polyline class="arrowLine" points="0.71 13.26 12.56 1.41 24.16 13.02"/>
+                        </svg>
+                    </button>
+                    <span id="newsNavigationStatus"><%- lang('landing.newsNavigationStatus', { currentPage: 1, totalPages: 1 }) %></span>
+                    <button id="newsNavigateRight">
+                        <svg id="newsNavigationRightSVG" viewBox="0 0 24.87 13.97">
+                            <defs>
+                                <style>.arrowLine{fill:none;stroke:#FFF;stroke-width:2px;transition: 0.25s ease;}</style>
+                            </defs>
+                            <polyline class="arrowLine" points="0.71 13.26 12.56 1.41 24.16 13.02"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="newsArticleContainer">
+                <div id="newsArticleContent">
+                    <div id="newsArticleContentScrollable">
+                        <!-- Article Content -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="newsErrorContainer">
+            <div id="newsErrorLoading">
+                <span id="nELoadSpan" class="newsErrorContent"><%- lang('landing.newsErrorLoadSpan') %></span>
+            </div>
+            <div id="newsErrorFailed" style="display: none;">
+                <span id="nEFailedSpan" class="newsErrorContent"><%- lang('landing.newsErrorFailedSpan') %></span>
+                <button id="newsErrorRetry"><%- lang('landing.newsErrorRetryButton') %></button>
+            </div>
+            <div id="newsErrorNone" style="display: none;">
+                <span id="nENoneSpan" class="newsErrorContent"><%- lang('landing.newsErrorNoneSpan') %></span>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/scripts/landing.js"></script>
+</div>
