@@ -4,12 +4,12 @@
 title = "MBTI 단합대회"
 
 [ejs.landing]
-mediaGitHubURL = "https://bj.afreecatv.com/moolchoco_mbti"
+mediaGitHubURL = "https://ch.sooplive.co.kr/moolchoco"
 mediaTwitterURL = "#"
 mediaInstagramURL = "#"
 mediaYouTubeURL = "#"
 mediaDiscordURL = "#"
-mediaAfreecaTVURL = "#"
+mediaAfreecaTVURL = "https://ch.sooplive.co.kr/moolchoco/post/139640487"
 screenshotsTooltip = "스크린샷"
 
 [ejs.settings]
